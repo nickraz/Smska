@@ -20,8 +20,8 @@ namespace Sms
         {
             textBoxMessage.KeyDown += textBox_KeyDown;
             textBoxSender.KeyDown += textBox_KeyDown;
-            nick = "http://sms.ru/sms/send?api_id=0806be6f-b55d-3614-c937-7713a28f5061&to=79111809287&text=";
-            alya = "http://sms.ru/sms/send?api_id=f46db30a-88f8-a704-1d50-8a471e58c30f&to=79811253559&text=";
+            nick = "http://sms.ru/sms/send?api_id=0806be6f-b55d-3614-c937-7713a28f5061&to=79111111111&text=";
+            alya = "http://sms.ru/sms/send?api_id=f46db30a-88f8-a704-1d50-8a471e58c30f&to=79812222222&text=";
             radioButtonNick.Select();
             textBoxMessage.Select();
             thisText = this.Text;
